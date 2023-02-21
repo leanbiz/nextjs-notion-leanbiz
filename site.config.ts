@@ -50,16 +50,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-//  navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'Projects',
-      pageId: 'All-post-8ca05f52ef474ceb9e295eff2ece5513'
-    },
-    {
-      title: 'Tiktok',
-      pageId: 'Tiktok-e83a9fe6018545f08214e027ca3a97ff'
-    }
-  ]
+  navigationStyle: 'default'
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: 'Projects',
+  //     pageId: 'All-post-8ca05f52ef474ceb9e295eff2ece5513'
+  //   },
+  //   {
+  //     title: 'Tiktok',
+  //     pageId: 'Tiktok-e83a9fe6018545f08214e027ca3a97ff'
+  //   }
+  // ]
 })
