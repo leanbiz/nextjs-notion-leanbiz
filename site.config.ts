@@ -55,11 +55,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'Projects',
-      pageId: 'All-Posts-75f136bdeeaa43da9c502ee8de5eea8d'
+      pageId: 'All-post-8ca05f52ef474ceb9e295eff2ece5513'
     },
     {
       title: 'Tiktok',
-      pageId: 'Tiktok-07b0afe2f826470f93a04e0bc11767ba'
+      pageId: 'Tiktok-e83a9fe6018545f08214e027ca3a97ff'
     }
   ]
 })
