@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'LeanBiz - Kinh doanh tinh gọn 4.0',
+  domain: 'leanbiz.vn',
+  author: 'leanbiz',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'LeanBiz - Kinh doanh tinh gọn 4.0',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -26,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: 'https://nextjs-notion-leanbiz-e071rezlv-leanbiz.vercel.app/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Faebf7e2f-d3a5-4442-ac43-ce96d6eeedfc%252Fleanbiz-logo-square.png%3Ftable%3Dblock%26id%3Da85a29ad-62cb-4d7f-ac27-0e9f7bde4eab%26cache%3Dv2&w=3840&q=75',
+  defaultPageCover: 'https://nextjs-notion-leanbiz-e071rezlv-leanbiz.vercel.app/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1557804506-669a67965ba0%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=3840&q=75',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -50,16 +50,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+//  navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Projects',
+      pageId: 'All-Posts-75f136bdeeaa43da9c502ee8de5eea8d'
+    },
+    {
+      title: 'Tiktok',
+      pageId: 'Tiktok-07b0afe2f826470f93a04e0bc11767ba'
+    }
+  ]
 })
